@@ -397,16 +397,16 @@ router.post("/:_id/auto", async (req, res) => {
       });
     }
 
-   let balance = Number(user.balance);
-let profit = Number(user.profit);
+//    let balance = Number(user.balance);
+// let profit = Number(user.profit);
 
-if (amount > balance) {
-  const remaining = amount - balance;
-  balance = 0;
-  profit = profit - remaining;
-} else {
-  balance = balance - amount;
-}
+// if (amount > balance) {
+//   const remaining = amount - balance;
+//   balance = 0;
+//   profit = profit - remaining;
+// } else {
+//   balance = balance - amount;
+// }
 
 // Update user
 await user.updateOne({
